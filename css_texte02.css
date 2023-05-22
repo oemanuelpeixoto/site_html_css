@@ -1,0 +1,512 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/*Parte AVISOS */
+
+.aviso{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.forma{
+    text-decoration: none;
+    color: white;
+}
+
+.forma{
+    background-color: #eb5757;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.forma:hover {
+    background-color: rgba(154, 46, 46, 0.658);
+}
+
+/*Parte LOGO e NAV */
+.logo{
+    position: relative;
+    max-width: 100px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+nav{
+    background-color: #eb5757;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.logo{
+    position: relative;
+    max-width: 100px;
+    padding: 10px;
+    display: flex;
+}
+
+nav ul{
+  
+    position: relative;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav li a {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+nav li a:hover{
+    background: rgba(0, 0, 0, 0.342);
+}
+
+.car{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius:5px;
+}
+.carrin{
+    width: 30px;
+    align-items: center;
+}
+
+/*****************************************/
+ /*HERO
+/*****************************************/
+
+
+.hero{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('Elementos/imagem1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 700px;
+   
+}
+
+.hero_text {
+   
+    padding-top: 70px;
+    padding-left: 187px;
+}
+.hero_text_titulo{
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+.hero_text_descricao{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.hero_cta{
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 2rem;
+  }
+  
+  .hero_cta:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /*****************************************/
+ /* PARTE BRANCA COM QUADRADOS PRETOS
+/*****************************************/
+
+.apoio{
+    padding: 30px 80px 30px 30px;
+    margin: ;
+    
+}
+
+.conteiner{
+    gap: 40px;
+    display: flex;
+}
+
+.ways_textos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 40px 0px 40px;
+}
+
+.support_title{
+    font-size: 40px;
+}
+
+.ways_covid{
+    font-size: 18px;
+}
+
+ /*****************************************/
+ /* quadrados 
+/*****************************************/
+
+.boxes_supporting{
+    display: flex;
+    align-items:flex-start;
+    position: relative;
+    align-content: space-between;
+    margin: 60px 60px 0px 60px;
+}
+.number1{
+    font-size: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+/* caixa n 1*/
+.box{
+    background-color: #222222;
+    width: 360px;
+    height: 360px;
+    color: #ffffff;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.caixao{
+    width: 350px;
+    margin: 10px;
+}
+
+
+.img_box1{
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    left: 140px;
+    top: 130px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.img_box2{
+    position: relative;
+    right: 40px;
+    left: 275px;
+    top: 180px;
+    z-index: -1;
+
+}
+.img_box3{
+    
+    position: absolute;
+    z-index: -1;
+}
+
+.donate {
+    align-content: center;
+    font-size: 40px;
+    text-align:center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+.buy{
+    align-content: center;
+    font-size: 40px;
+    text-align:center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+.carrossel1{
+    width: 450px;
+}
+
+.arvore{
+    padding-top: 40px;
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(Elementos/imagem2.jpg);
+}
+
+.arvore_text {
+    text-align: right;
+    padding-right: 60px;
+    align-items: center;
+    padding-top: 40px;
+}
+.arvore_text_titulo{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+.arvore_text_descricao{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.arvore_cta{
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 2rem;
+  }
+
+.open_shop_text{
+    margin: 50px 
+}
+
+.carrossel{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 50px 80px 0px 80px;
+}
+
+
+.text_shop{
+    margin-top: 50px;
+    margin-left: 130px;
+
+}
+.shop{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    
+      
+}
+
+.img1{
+    height: 480px; 
+    width: 380px; 
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+#text_carrossel{
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center ;
+    display: inline-block;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.iten_carrosel , .iten_carrosel2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#cta_carrosel {
+    width: 120px;
+    color: #FFF; 
+    padding: 8px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eb5757;
+    border-radius: 5px;
+    background-color: #eb5757; 
+    font-weight: 700; 
+    font-size: 15px;
+    margin-top: 20px;
+}
+#cta_carrosel:hover{
+    background-color: #222; 
+    border-color: #222; 
+    cursor: pointer;    
+}
+
+.price2{
+    display: flex;
+   justify-content: center;
+   font-size: 15px;
+   margin: 5px;
+    
+}
+
+.price_2 {
+    position: relative;
+    color: #eb5757;
+    align-items: center;
+    font-weight: 500;
+}
+.price_2::after {
+    
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(165, 2, 2);
+}
+
+.price{
+    font-size: 15px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+
+#cta_all {
+    width: 200px;
+    color: #FFF; 
+    padding: 8px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    background-color: #000000; 
+    font-weight: 700; 
+    font-size: 15px;
+    margin-top: 20px;
+
+} 
+
+#cta_all1 {
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img_shops_local{
+    object-fit: cover;
+    width: 350px;
+    height: 400px;
+}
+
+.forma1{
+   
+    width: 750px;
+}
+
+.textos{
+    align-items: flex-start;
+}
+
+
+.shop_local_section{
+    padding: 60px 40px 40px 50px;
+   
+}
+
+.shop_local_objetos{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shop_local_section{
+    align-items: center;
+    justify-content: center;
+}
+
+.mulher2{
+    position: absolute;
+    left: 15%;
+    top: 6%;
+    right: auto;
+    bottom: 0%;
+    width: 24%;
+    height: 0px;
+    min-height: 463px;
+    border-radius: 5px;
+    background-image: url(Elementos/mulher.jpg);
+    background-position: 68% 57%;
+    background-size: 318%;
+    z-index: 1;
+}
+
+.caixa_preta_shop {
+    display: flex;
+    padding: 45px;
+    background-color: #222;
+    color: #f9f9f9;
+    width: 47%;
+    border-radius: 5px;
+    justify-content: center;
+    position: relative;
+    left: 140px;
+    z-index: -1;
+}
+
+.shop_title{
+ font-size: 40px;
+}
+
+#footer {
+    min-height: 115px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.redes_sociais {
+    width: 20px;
+    display: flex;
+    gap: 20px;
+  }
