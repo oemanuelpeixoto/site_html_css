@@ -161,7 +161,7 @@ nav li a:hover{
 
 .apoio{
     padding: 30px 80px 30px 30px;
-    margin: ;
+    
     
 }
 
@@ -172,11 +172,18 @@ nav li a:hover{
 
 .ways_textos{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 40px 0px 40px;
+    align-items: flex-start;
+    position: relative;
+    align-content: space-between;
+    margin: 60px 215px 0px 40px;
+    justify-content: center;
+    gap: 124px;
 }
+.ways_covid{
+    position: relative;
+    left: 174px;
 
+}
 .support_title{
     font-size: 40px;
 }
@@ -195,6 +202,8 @@ nav li a:hover{
     position: relative;
     align-content: space-between;
     margin: 60px 60px 0px 60px;
+    justify-content: center;
+    gap: 60px;
 }
 .number1{
     font-size: 50px;
@@ -205,8 +214,8 @@ nav li a:hover{
 /* caixa n 1*/
 .box{
     background-color: #222222;
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
     color: #ffffff;
     align-items: center;
     position: relative;
@@ -215,17 +224,15 @@ nav li a:hover{
 }
 
 .caixao{
-    width: 350px;
-    margin: 10px;
+    width: 400px;
+    
 }
 
 
 .img_box1{
     position: absolute;
-    bottom: 0px;
-    right: 40px;
-    left: 140px;
-    top: 130px;
+    left: 300px;
+    top: 320px;
     border-radius: 10px;
     z-index: -1;
 }
@@ -233,8 +240,8 @@ nav li a:hover{
 .img_box2{
     position: relative;
     right: 40px;
-    left: 275px;
-    top: 180px;
+    left: 270px;
+    top: 250px;
     z-index: -1;
 
 }
@@ -242,15 +249,26 @@ nav li a:hover{
     
     position: absolute;
     z-index: -1;
+    right: 40px;
+    left: 300px;
+    top: 290px;
+    z-index: -1;
 }
-
-.donate {
+.shop{
     align-content: center;
     font-size: 40px;
     text-align:center;
     align-items: center;
     position: relative;
-    top: 80px;
+    top: 15px;}
+
+.donate{
+    align-content: center;
+    font-size: 40px;
+    text-align:center;
+    align-items: center;
+    position: relative;
+    top: 160px;
 }
 .buy{
     align-content: center;
@@ -258,22 +276,25 @@ nav li a:hover{
     text-align:center;
     align-items: center;
     position: relative;
-    top: 70px;
+    top: 140px;
 }
-.carrossel1{
-    width: 450px;
+.text_box_g{
+    margin: 40px 0px 10px 0px;
+    
 }
 
 .arvore{
     padding-top: 40px;
     width: 100%;
-    height: 760px;
+    height: 790px;
     background-size: cover;
     background-position: center;
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url(Elementos/imagem2.jpg);
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6))
+    , url(Elementos/imagem2.jpg);
 }
 
 .arvore_text {
@@ -321,19 +342,26 @@ nav li a:hover{
 
 
 .text_shop{
-    margin-top: 50px;
-    margin-left: 130px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-left: 380px;
 
 }
-.shop{
+.shop {
     align-items: center;
     display: flex;
     align-content: center;
     justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
+    gap: 40px;     
+}
+.shop1{
+    align-content: center;
+    gap: 10px;
     
-      
 }
 
 .img1{
@@ -408,6 +436,10 @@ nav li a:hover{
     font-weight: 500;
 }
 
+.open_24{
+    font-size: 40px;
+    
+}
 
 #cta_all {
     width: 200px;
